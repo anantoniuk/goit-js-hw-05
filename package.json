@@ -1,0 +1,31 @@
+{
+  "name": "goit-js-hw-05",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anantoniuk/goit-js-hw-05.git"
+  },
+  "keywords": [],
+  "author": "Anna Antoniuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anantoniuk/goit-js-hw-05/issues"
+  },
+  "homepage": "https://github.com/anantoniuk/goit-js-hw-05#readme",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "basiclightbox": "^5.0.4",
+    "chart.js": "^4.5.1",
+    "nanoid": "^6.0.0",
+    "simple-notify": "^1.0.6"
+  }
+}

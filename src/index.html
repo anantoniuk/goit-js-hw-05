@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="./style/reset.css" />
+  </head>
+  <body>
+    <section class="section section__game">
+      <div class="container">
+        <div class="game__meta">
+          <h1 class="game__title">Гра "Натисни правильну клавішу"</h1>
+          <div class="game__management">
+            <button class="game__btn game__btn--description" data-description>
+              Правила
+            </button>
+            <button class="game__btn game__btn--start" data-type="start">
+              Почати
+            </button>
+          </div>
+          <div class="game__group">
+            <p class="keys" data-textKeys></p>
+            <p class="key_current" data-textCurrentKey></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <canvas id="sales-chart"></canvas>
+      </div>
+    </section>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
