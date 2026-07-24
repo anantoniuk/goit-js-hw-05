@@ -48,14 +48,7 @@ const chartData = {
   ],
 };
 const config = {
-  //   type: "bar",
   type: "line",
-  //   type: "pie",
-  //   type: "doughnut",
-  //   type: "polarArea",
-  //   type: "radar",
-  //   type: "bubble",
-  //   type: "scatter",
   data: chartData,
   options: {},
 };
