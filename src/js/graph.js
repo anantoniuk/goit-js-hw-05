@@ -1,4 +1,4 @@
-import { Chart } from "chart.js/auto";
+import Chart from "chart.js/auto";
 const canvas = document.querySelector("#sales-chart");
 const chartData = {
   labels: [
